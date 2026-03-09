@@ -31,9 +31,9 @@ const KOLOM_WAKTU = "Waktu Penyediaan Informasi"; // Sesuaikan dgn nama kolom ba
 const KOLOM_KET_TAMBAHAN = "Keterangan Tambahan"; // Sesuaikan dgn nama kolom baru
 
 // D. Data Petugas
-const NAMA_PETUGAS = "Nindy Widyawati";
-const CONTACT_CENTER = "08117215700";
-const EMAIL_ADMIN = "nindindoy19@gmail.com"; // Email Admin untuk Notifikasi
+const NAMA_PETUGAS = "Nama Petugas";
+const CONTACT_CENTER = "Call Center";
+const EMAIL_ADMIN = "emailAdmin@gmail.com"; // Email Admin untuk Notifikasi
 
 
 // --- FUNGSI 1: SAAT FORM DISUBMIT (Otomatis Kirim Tanda Terima & Notif Admin) ---
@@ -309,4 +309,5 @@ function updateCell(sheet, row, headers, colName, value) {
 function formatTanggalIndo(dateObj) {
   const bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
   return `${dateObj.getDate()} ${bulan[dateObj.getMonth()]} ${dateObj.getFullYear()}`;
+
 }
