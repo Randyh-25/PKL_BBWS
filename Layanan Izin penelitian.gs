@@ -6,7 +6,7 @@ const CONFIG = {
   colLink: "Link Surat",                // Nama kolom Link Surat (untuk yang disetujui)
   colLog: "Notifikasi Terkirim",        // Nama kolom untuk log pengiriman
   sheetName: "Status Izin Penelitian",  // Nama Sheet
-  adminEmail: "ning.kurniasi@gmail.com",     
+  adminEmail: "emailAdmin@gmail.com",     
   spreadsheetLink: "https://docs.google.com/spreadsheets/d/1Z_8shV5PAdt8a-KeZ1-6hDezIiC8gK6DVNqYT5fEqy4/edit"
 };
 

@@ -29,7 +29,7 @@ Pengembangan *backend* sistem otomatisasi administrasi berbasis Google Workspace
 |:--:|:---|:---|:---|
 | **1** | **Sistem Otomatisasi Administrasi Keuangan dan Pengadaan**<br><br>Fokus Pengembangan:<br>Penomoran Auto-Reset SP/SPK/SPD & Workflow Persetujuan Berjenjang SPJ. | **Randy Hendriyawan**<br>NIM: 122140171<br>[Profil GitHub](https://github.com/Randyh-25) | `Penomoran SP, SPK, SPD, SPJ, Arsip SPJ.gs` |
 | **2** | **Digitalisasi Layanan Internal Pegawai dan Integrasi Data**<br><br>Fokus Pengembangan:<br>Agregasi Data Lintas Satuan Kerja & Deteksi Bentrok Jadwal Fasilitas Kantor. | **Muhammad Riveldo H. P.**<br>NIM: 122140037<br>[Profil GitHub](https://github.com/MuhammadRiveldo) | `Surat izin keluar.gs`<br>`Layanan Peminjaman Ruangan.gs`<br>`Rekap SPD semua satker.gs` |
-| **3** | **Manajemen Layanan Publik dan Tata Kelola Naskah Dinas**<br><br>Fokus Pengembangan:<br>Pelacakan SLA PPID, Register Izin Penelitian, & Klasifikasi Keamanan Surat. | **Blodot Sakti Luhung**<br>NIM: 122140045<br>[Profil GitHub](https://github.com/BlodotSakti) | `PPID.gs`<br>`Layanan Izin penelitian.gs`<br>`Penomoran Naskah Dinas, TTE, Digitalisasi Naskah dinas.gs` |
+| **3** | **Manajemen Layanan Publik dan Tata Kelola Naskah Dinas**<br><br>Fokus Pengembangan:<br>Pelacakan SLA PPID, Register Izin Penelitian, & Klasifikasi Keamanan Surat. | **Blodot Sakti Luhung**<br>NIM: 122140045<br>[Profil GitHub](https://github.com/BlodotSakti) | `PPID.gs`<br>`Layanan Izin penelitian.gs`<br>`layananMagangMahasiswa.gs`<br>`layananPKLSiswa.gs`<br>`Penomoran Naskah Dinas, TTE, Digitalisasi Naskah dinas.gs` |
 
 ---
 
