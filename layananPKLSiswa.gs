@@ -1,7 +1,7 @@
 // ===========================================================================
 // KONFIGURASI UTAMA
 // ===========================================================================
-const ADMIN_EMAIL = "emailAdmin@gmail.com"; 
+const ADMIN_EMAIL = "YOUR_ADMIN_EMAIL@example.com"; 
 
 // ⚠️ PENTING: NAMA HEADER HARUS SAMA PERSIS 100% DENGAN DI SPREADSHEET
 const HEADERS = {
@@ -181,7 +181,7 @@ function sendEmailNotification(email, nama, status, noReg, linkSurat, alasan) {
       <p>Yth. Saudara/i <b>${nama}</b>,</p>
       <p>Permohonan PKL Siswa yang Anda ajukan telah kami terima dan dicatat sistem dengan Nomor Register: <b>${noReg}</b>.</p>
       <p>Permohonan akan segera kami tindaklanjuti sesuai ketentuan yang berlaku.<br>
-      Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       <p>Terima kasih atas perhatian dan kerja sama Saudara/i.</p>
       <br><p>Hormat kami,<br><b>BBWS Mesuji Sekampung</b></p>
     `;
@@ -197,7 +197,7 @@ function sendEmailNotification(email, nama, status, noReg, linkSurat, alasan) {
         <a href="${linkSurat}" style="background-color: ${headerColor}; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">👉 LIHAT SURAT PERSETUJUAN</a>
       </div>
       <p>Pelaksanaan PKL Siswa agar dilaksanakan sesuai lokasi, waktu, dan ketentuan yang berlaku di lingkungan BBWS Mesuji Sekampung.</p>
-      <p>Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      <p>Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       <p>Atas kerja sama Suadara/i, kami ucapkan terima kasih.</p>
       <br><p>Hormat kami,<br><b>BBWS Mesuji Sekampung</b></p>
     `;
@@ -213,7 +213,7 @@ function sendEmailNotification(email, nama, status, noReg, linkSurat, alasan) {
       </div>
       <p>Penolakan dilakukan dengan mempertimbangkan ketentuan dan kebijakan yang berlaku di lingkungan BBWS Mesuji Sekampung.<br>
       Saudara/i dapat mengajukan permohonan kembali dengan menyesuaikan ketentuan yang berlaku.</p>
-      <p>Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      <p>Apabila diperlukan informasi lebih lanjut, Saudara/i dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       <p>Atas perhatian dan pengertiannya, kami ucapkan terima kasih.</p>
       <br><p>Hormat kami,<br><b>BBWS Mesuji Sekampung</b></p>
     `;
@@ -225,7 +225,7 @@ function sendEmailNotification(email, nama, status, noReg, linkSurat, alasan) {
       <p align="justify">Terima kasih telah menggunakan layanan PKL Siswa Balai Besar Wilayah Sungai Mesuji Sekampung. Sehubungan dengan telah selesainya proses permohonan PKL Siswa Saudara/i dengan Nomor Registrasi: <b>${noReg}</b>, kami mohon kesediaan Saudara/i untuk mengisi Survei Indeks Kepuasan Masyarakat (IKM) dan Indeks Persepsi Korupsi (IPK) sebagai bahan evaluasi dan peningkatan kualitas layanan kami.</p>
       <p>Mohon kesediaan Saudara/i untuk mengisi Survei IKM & IPK pada tautan berikut:</p>
       <div style="text-align: center; margin: 20px 0;">
-        <a href="https://s.pu.go.id/MTMwOA/Survei_IKMdanIPK_BBWSMS" style="background-color: #2E7D32; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">📝 ISI SURVEI</a>
+        <a href="[LINK_SURVEI_IKM_IPK]" style="background-color: #2E7D32; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">📝 ISI SURVEI</a>
       </div>
 
       <p align="justify">Pengisian survei bersifat sukarela, tidak dipungut biaya, dan tidak mempengaruhi layanan yang telah atau akan diterima. Seluruh jawaban Saudara/i dijamin kerahasiaannya.</p>
@@ -237,7 +237,7 @@ function sendEmailNotification(email, nama, status, noReg, linkSurat, alasan) {
       <p style="font-size: 13px; color: #555;">Hormat kami,<br>
       <b>Layanan PKL Siswa<br>
       Balai Besar Wilayah Sungai Mesuji Sekampung</b><br>
-      Call Center PPID: 0811-7215-700</p>
+      Call Center PPID: [NOMOR_CALL_CENTER]</p>
     `;
   }
 

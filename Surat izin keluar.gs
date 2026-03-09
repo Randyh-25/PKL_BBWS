@@ -1,11 +1,11 @@
 /***********************************************************
  * KONFIGURASI UNIVERSAL (GEDUNG 1 & 2)
  ***********************************************************/
-const FORM_URL_GEDUNG_1 = "https://docs.google.com/forms/d/e/1FAIpQLScUv5jIBgIiIqagknQUgxxzqFXnxOT6DyfTdud67XryIexCDw/viewform?usp=pp_url";
-const FORM_URL_GEDUNG_2 = "https://docs.google.com/forms/d/e/1FAIpQLSczKcTK7mCuHNvMUXeMxcQQUBdb3BKt0GDxYjdd7dOdXMGpTw/viewform?usp=pp_url";
+const FORM_URL_GEDUNG_1 = "[LINK_FORM_GEDUNG_1]";
+const FORM_URL_GEDUNG_2 = "[LINK_FORM_GEDUNG_2]";
 
-const ENTRY_REQUEST_ID = "entry.1199147859";
-const ENTRY_KEPUTUSAN  = "entry.1396566311";
+const ENTRY_REQUEST_ID = "entry.YOUR_ENTRY_REQUEST_ID";
+const ENTRY_KEPUTUSAN  = "entry.YOUR_ENTRY_KEPUTUSAN_ID";
 
 function mainOnFormSubmit(e) {
   if (!e || !e.range) return;

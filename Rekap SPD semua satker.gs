@@ -22,13 +22,13 @@ function resetSemuaBulan(ssRekap, bulanNames) {
 function importDataDinas() {
   const ssRekap = SpreadsheetApp.getActiveSpreadsheet();
   const sourceIds = [
-    "1W2G-8-jjP8eOz-OdalQbJsgDaCILjVAjj4wmFoQ5pJE", "11JUlIawqyFi6rPQhxI2ZUWtSdaVaA0gir9ZJHpk-wwo",
-    "1-AaPdHm9Hvq-pcqAkEh-dU-dIqT59S4LIs4lQGrKVJI", "1-QhSBxzRVTuox2A8P9HLVOS-Xlizfma86qyD8EuUQRQ",
-    "1pxk5Z66B-aNZSNlsc-3foKksvWAOeZ4LNdnmVPKgPqI", "1xi9hxoBVepiZfcJ3eokNFliL7_7SYxCEzED28BaORMI",
-    "1SStQfuBVwqU7MPlTcMCWyaiV4iA4Hi1m8rVLrccZFhc", "1L1VrAZH-fjdVUU71_aaH-RHum5amb6S4F6SvLPBeyDw",
-    "1FTi_7Nq5GeUStRak3UyUBSAXqHganciWUMJ25lwg3rg", "1ZNKKeSOTEs19bts3ya6-MZa0sU-HUwj-Xa2yoU_JJs4",
-    "1hmIcCjysDSspOL_vWBa2tTeiCK-b97Y06Ry-_NAyFlc", "13hGqRVJgPQfUm46EucemXT8mEUMUN1iuaR4B9dnjucU",
-    "1kXGB-iUpVH1TPLh77O6Etiuni1Q_cAS0AmBYIcnDKsg"
+    "YOUR_SPREADSHEET_ID_1", "YOUR_SPREADSHEET_ID_2",
+    "YOUR_SPREADSHEET_ID_3", "YOUR_SPREADSHEET_ID_4",
+    "YOUR_SPREADSHEET_ID_5", "YOUR_SPREADSHEET_ID_6",
+    "YOUR_SPREADSHEET_ID_7", "YOUR_SPREADSHEET_ID_8",
+    "YOUR_SPREADSHEET_ID_9", "YOUR_SPREADSHEET_ID_10",
+    "YOUR_SPREADSHEET_ID_11", "YOUR_SPREADSHEET_ID_12",
+    "YOUR_SPREADSHEET_ID_13"
   ];
 
   const bulanNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", 

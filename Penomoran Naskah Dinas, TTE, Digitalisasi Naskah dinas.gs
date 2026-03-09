@@ -344,10 +344,10 @@ function kirimEmail(targetEmail, nomorSurat, jenis, sifat, derajat, hal, tanggal
       <div style="background-color:#e3f2fd;padding:20px;border-radius:8px;border:1px solid #bbdefb;margin-top:30px;">
         <h3 style="margin-top:0;color:#0d47a1;font-size:16px;">Langkah Selanjutnya:</h3>
         <p style="margin-bottom:5px;"><strong>1. Pengajuan TTE:</strong><br>
-        <a href="https://forms.gle/wwBHrNpDBoLv619P8" style="text-decoration:none;color:#1976d2;font-weight:bold;">Form Pengajuan TTE</a></p>
+        <a href="[LINK_FORM_PENGAJUAN_TTE]" style="text-decoration:none;color:#1976d2;font-weight:bold;">Form Pengajuan TTE</a></p>
         <hr style="border:0;border-top:1px solid #bbdefb;margin:15px 0;">
         <p style="margin-bottom:5px;"><strong>2. Upload Arsip Surat:</strong><br>
-        <a href="https://forms.gle/FTmYZuH7Ffbx2gEM8" style="text-decoration:none;color:#2e7d32;font-weight:bold;">Form Upload Surat</a></p>
+        <a href="[LINK_FORM_UPLOAD_SURAT]" style="text-decoration:none;color:#2e7d32;font-weight:bold;">Form Upload Surat</a></p>
       </div>
 
       <p style="font-size:12px;color:#757575;margin-top:30px;text-align:center;">

@@ -6,8 +6,8 @@ const CONFIG = {
   colLink: "Link Surat",                // Nama kolom Link Surat (untuk yang disetujui)
   colLog: "Notifikasi Terkirim",        // Nama kolom untuk log pengiriman
   sheetName: "Status Izin Penelitian",  // Nama Sheet
-  adminEmail: "emailAdmin@gmail.com",     
-  spreadsheetLink: "https://docs.google.com/spreadsheets/d/1Z_8shV5PAdt8a-KeZ1-6hDezIiC8gK6DVNqYT5fEqy4/edit"
+  adminEmail: "YOUR_ADMIN_EMAIL@example.com",     
+  spreadsheetLink: "https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_ID/edit"
 };
 
 // =================================================================
@@ -147,7 +147,7 @@ function sendEmailDiterima(to, noReg) {
       <p>Permohonan izin penelitian yang Anda ajukan telah kami terima dan dicatat dalam sistem dengan Nomor Register: <b>${noReg}</b>.</p>
       
       <p>Permohonan akan ditindaklanjuti sesuai ketentuan yang berlaku.<br>
-      Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       
       <p>Terima kasih atas perhatian dan kerja sama Bapak/Ibu.</p>
       
@@ -173,7 +173,7 @@ function sendEmailDisetujui(to, noReg, linkSurat) {
       
       <p>Pelaksanaan penelitian agar dilaksanakan sesuai lokasi, waktu, dan ketentuan yang berlaku di lingkungan BBWS Mesuji Sekampung.</p>
       
-      <p>Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      <p>Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       
       <p>Atas kerja sama Bapak/Ibu, kami ucapkan terima kasih.</p>
       
@@ -197,7 +197,7 @@ function sendEmailDitolak(to, noReg) {
       <p>Penolakan dilakukan dengan mempertimbangkan ketentuan dan kebijakan yang berlaku di lingkungan BBWS Mesuji Sekampung.<br>
       Bapak/Ibu dapat mengajukan permohonan kembali dengan menyesuaikan ketentuan yang berlaku.</p>
       
-      <p>Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di 0811-7215-700.</p>
+      <p>Apabila diperlukan informasi lebih lanjut, Bapak/Ibu dapat menghubungi Call Center BBWS Mesuji Sekampung di [NOMOR_CALL_CENTER].</p>
       
       <p>Atas perhatian dan pengertiannya, kami ucapkan terima kasih.</p>
       

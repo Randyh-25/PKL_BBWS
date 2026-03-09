@@ -33,7 +33,7 @@ const KOLOM_KET_TAMBAHAN = "Keterangan Tambahan"; // Sesuaikan dgn nama kolom ba
 // D. Data Petugas
 const NAMA_PETUGAS = "Nama Petugas";
 const CONTACT_CENTER = "Call Center";
-const EMAIL_ADMIN = "emailAdmin@gmail.com"; // Email Admin untuk Notifikasi
+const EMAIL_ADMIN = "YOUR_ADMIN_EMAIL@example.com"; // Email Admin untuk Notifikasi
 
 
 // --- FUNGSI 1: SAAT FORM DISUBMIT (Otomatis Kirim Tanda Terima & Notif Admin) ---
@@ -203,7 +203,7 @@ function onEditStatus(e) {
            <p style="text-align: justify; margin-top: 15px; font-size: 0.9em;">
             Pemberitahuan tertulis ini disampaikan sebagai jawaban resmi PPID sesuai UU No. 14 Tahun 2008.
             Apabila Saudara/i tidak puas, Saudara/i berhak mengajukan keberatan melalui tautan: 
-            <a href="https://s.pu.go.id/MTMwOA/Form_Keberatan_PPID">Form Keberatan PPID</a>
+            <a href="[LINK_FORM_KEBERATAN_PPID]">Form Keberatan PPID</a>
           </p>
         </div>`;
     }
@@ -257,7 +257,7 @@ function onEditStatus(e) {
           <ol>
             <li>Notifikasi ini merupakan tanda bukti sah penyerahan informasi publik secara elektronik.</li>
             <li>Penyerahan informasi dilakukan sesuai dengan Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik.</li>
-            <li>Hak-hak Pemohon Informasi Publik dapat dibaca melalui tautan berikut: <a href="https://s.pu.go.id/MTMwOA/Hak_Pemohon_Informasi">Link Hak Pemohon Informasi</a></li>
+            <li>Hak-hak Pemohon Informasi Publik dapat dibaca melalui tautan berikut: <a href="[LINK_HAK_PEMOHON_INFORMASI]">Link Hak Pemohon Informasi</a></li>
           </ol>
 
           <h4 style="margin-bottom: 5px;">F. Petugas PPID</h4>
@@ -275,7 +275,7 @@ function onEditStatus(e) {
           <p>Terima kasih telah menggunakan layanan Informasi Publik PPID Balai Besar Wilayah Sungai Mesuji Sekampung. Sehubungan dengan telah selesainya proses permohonan informasi publik Saudara/i dengan Nomor Registrasi: <strong>${noReg}</strong>, kami mohon kesediaan Saudara/i untuk mengisi Survei Indeks Kepuasan Masyarakat (IKM) dan Indeks Persepsi Korupsi (IPK) sebagai bahan evaluasi dan peningkatan kualitas layanan kami.</p>
 
           <p>📝 <strong>Tautan Survei IKM & IPK:</strong><br>
-          🔗 <a href="https://s.pu.go.id/MTMwOA/Survei_IKMdanIPK_BBWSMS">https://s.pu.go.id/MTMwOA/Survei_IKMdanIPK_BBWSMS</a></p>
+          🔗 <a href="[LINK_SURVEI_IKM_IPK]">[LINK_SURVEI_IKM_IPK]</a></p>
 
           <p>Pengisian survei bersifat sukarela, tidak dipungut biaya, dan tidak mempengaruhi layanan yang telah atau akan diterima. Seluruh jawaban Saudara/i dijamin kerahasiaannya.</p>
           <p>Partisipasi Saudara/i sangat berarti bagi peningkatan transparansi, akuntabilitas, dan kualitas pelayanan informasi publik di lingkungan BBWS Mesuji Sekampung.</p>
